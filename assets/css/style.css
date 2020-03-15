@@ -31,7 +31,7 @@ nav {
 }
 .landing-img {
   width: 100%;
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 992px) {
