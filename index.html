@@ -57,22 +57,22 @@
         <li><a
                 class="center indigo accent-1"
                 href="javascript:;"
-                onclick="$('.landing').show();$('.contact').hide();$('.gallery').hide();$('.videos').hide()"
+                onclick="$('.landing').show();$('.contact').hide();$('.gallery').hide();$('.videos').hide();$('.landing-img').removeClass('scale-out')"
             >About</a></li>
         <li><a
                 class="center teal accent-3"
                 href="javascript:;"
-                onclick="$('.landing').hide();$('.contact').hide();$('.gallery').show();$('.videos').hide()"
+                onclick="$('.landing-img').addClass('scale-out');$('.landing').hide();$('.contact').hide();$('.gallery').show();$('.videos').hide()"
             >Gallery</a></li>
         <li><a
                 class="center pink lighten-5"
                 href="javascript:;"
-                onclick="$('.landing').hide();$('.contact').hide();$('.gallery').hide();$('.videos').show()"
+                onclick="$('.landing-img').addClass('scale-out');$('.landing').hide();$('.contact').hide();$('.gallery').hide();$('.videos').show()"
             >Videos</a></li>
         <li><a
                 class="center yellow accent-1"
                 href="javascript:;"
-                onclick="$('.landing').hide();$('.contact').show();$('.gallery').hide();$('.videos').hide()"
+                onclick="$('.landing-img').addClass('scale-out');$('.landing').hide();$('.contact').show();$('.gallery').hide();$('.videos').hide()"
             >Contact</a></li>
     </ul>
 
@@ -102,7 +102,7 @@
                         <div class="card-action">
                             <a
                                 href="javascript:;"
-                                onclick="$('.landing').hide();$('.contact').hide();$('.gallery').show();$('.videos').hide()"
+                                onclick="$('.landing-img').addClass('scale-out');$('.landing').hide();$('.contact').hide();$('.gallery').show();$('.videos').hide();"
                                 class="deep-orange-text"
                             >Click here</a>
                         </div>
@@ -118,7 +118,7 @@
                         <div class="card-action">
                             <a
                                 href="javascript:;"
-                                onclick="$('.landing').hide();$('.contact').hide();$('.gallery').hide();$('.videos').show()"
+                                onclick="$('.landing-img').addClass('scale-out');$('.landing').hide();$('.contact').hide();$('.gallery').hide();$('.videos').show()"
                                 class="deep-orange-text"
                             >Click here</a>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="card-action">
                             <a
                                 href="javascript:;"
-                                onclick="$('.landing').hide();$('.contact').show();$('.gallery').hide();$('.videos').hide()"
+                                onclick="$('.landing-img').addClass('scale-out');$('.landing').hide();$('.contact').show();$('.gallery').hide();$('.videos').hide()"
                                 class="deep-orange-text"
                             >Click here</a>
                         </div>
